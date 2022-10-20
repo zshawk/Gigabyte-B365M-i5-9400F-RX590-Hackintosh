@@ -17,6 +17,8 @@
 * Periperals→USB Configuration→xHCI HandOff→Enabled
 * Chipset→VT-d→Disabled
 
+> `WhateverGreen.kext` 是核显驱动，可以去掉，如果需要关闭显示器开机，可以加上 `WhateverGreen.kext`，或者 BIOS 设置开启 CSM 支持
+
 ## win10和mac下时间不一致解决的办法
 
 win下cmd运行 `Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1`
