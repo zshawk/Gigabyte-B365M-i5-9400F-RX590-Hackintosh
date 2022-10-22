@@ -14,8 +14,9 @@
 ## BIOS设置
 
 * BIOS→CSM Support→Disabled（关闭CSM支持）
-* Periperals→USB Configuration→xHCI HandOff→Enabled
 * Chipset→VT-d→Disabled
+* Periperals→USB Configuration→xHCI HandOff→Enabled
+* Peripherals→Above 4G Decoding→Disabled
 
 > `WhateverGreen.kext` 是核显驱动，可以去掉，如果需要关闭显示器开机，可以加上 `WhateverGreen.kext`，或者 BIOS 设置开启 CSM 支持
 
