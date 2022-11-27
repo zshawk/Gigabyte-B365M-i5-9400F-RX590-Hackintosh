@@ -3,7 +3,7 @@
 ## 配置
 
 * 主板：技嘉 小雕 B365 M AORUS ELITE
-* CPU：Intel® Core™ i5-9400F Processor
+* CPU：Intel® Core™ i5-9400F Processor(无核显)
 * 显卡：迪兰（Dataland）RX 590 8G X战神 PLUS
 * 内存：金士顿 (Kingston) FURY 16GB DDR4 2666 x2
 * 固态硬盘：西部数据（Western Digital）500GB SSD固态硬盘 M.2接口（NVMe协议） WD Blue SN550
@@ -17,8 +17,6 @@
 * Chipset→VT-d→Disabled
 * Peripherals→USB Configuration→xHCI Hand-off→Enabled
 * Peripherals→Above 4G Decoding→Disabled
-
-> `WhateverGreen.kext` 是核显驱动，可以去掉，如果需要关闭显示器开机，可以加上 `WhateverGreen.kext`，或者 BIOS 设置开启 CSM 支持
 
 ## win10和mac下时间不一致解决的办法
 
