@@ -16,7 +16,7 @@
 * BIOS→CSM Support→Disabled（关闭CSM支持）
 * Chipset→VT-d→Disabled
 * Peripherals→USB Configuration→xHCI Hand-off→Enabled
-* Peripherals→Above 4G Decoding→Disabled
+* Peripherals→Above 4G Decoding→Enabled
 
 ## win10和mac下时间不一致解决的办法
 
