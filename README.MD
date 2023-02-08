@@ -32,3 +32,6 @@ win下cmd运行 `Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformati
 * `Kernel -> Quirks -> AppleXcpmCfgLock`
 
 ![img.png](img.png)
+
+## 生成三码
+`PlatformInfo -> Generic`
